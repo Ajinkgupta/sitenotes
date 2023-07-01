@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saved Notes - Site Notes</title>
+
+  <style>
+    /* Global Styles */
+    body {
+      font-family: "Lato", sans-serif;
+      background: #edf1f5;
+    }
+
+    /* Sidebar Styles */
+    .sidenav {
+      height: 100%;
+      width: 300px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 0px 10px 10px 0px;
+    }
+
+    .sidenav div div {
+      padding: 8px;
+      margin: 4px;
+      border: 1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      display: block;
+    }
+
+    .sidenav div div:hover {
+      color: #f1f1f1;
+      background: #f44336;
+    }
+
+    /* Main Content Styles */
+    .main {
+      margin-left: 300px; /* Same as the width of the sidenav */
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+
+    /* Card Styles */
+    card {
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1 solid transparent;
+      margin: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      margin-bottom: 10px;
+      break-inside: avoid;
+      border: 2px solid white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 5px;
+      background-color: #ffffff;
+      border-radius: 5px;
+    }
+
+    h3 a {
+      text-decoration: none;
+    }
+
+    /* Note List Styles */
+    .main #note-list {
+      column-count: 3;
+      column-gap: 10px;
+    }
+
+    /* Sort Options Styles */
+    #sort-options {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 5px;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    select {
+      padding: 5px;
+      border-radius: 4px;
+    }
+
+    /* Note Content Styles */
+    .note-content {
+      padding: 10px;
+      border-top: 2px solid #818181;
+      border-bottom: 2px solid #818181;
+      font-size: medium;
+      font-weight: 400;
+    }
+
+    /* Button Styles */
+    card button {
+      width: 30px;
+      border: 0;
+      padding: 5px;
+      border-radius: 100%;
+      background-color: #f44336;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer Styles */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+     /* Badge Styles */
+     .sidebar-badge {
+      position: fixed;
+      bottom: 0;
+      right: 0; 
+      background:  gold;
+      overflow: hidden;
+      padding: 4px;
+      border-radius: 10px 0px 0px 0px;
+    }
+
+    .sidebar-badge a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-decoration: none;
+    }
+
+    .open-book {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+
+
+  </style>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidenav">
+    <h2 style="padding-left: 8px;">Websites</h2>
+    <div id="website-list" data-selected-website="all"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div id="sort-options"></div>
+    <div id="note-list" style="padding-top: 50px;"></div>
+    <!-- Star Button -->
+    <div class="sidebar-badge">
+      <a href="https://github.com/ajinkgupta/sitenotes" target="_blank">
+        <img class="open-book" src="https://img.icons8.com/material-sharp/24/github.png" alt="github"/>
+      Star This Repository
+      </a>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      Developed With 💖 & 💻  By <a href="https://github.com/ajinkgupta"> Ajink Gupta</a>
+    </div>
+  </div>
+</body>
+</html>
