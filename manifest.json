@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Website Notes Extension",
+    "name": "Site Notes",
     "version": "1.0",
     "permissions": [
       "storage",
