@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Site Notes",
+    "name": "Site NOtes",
     "version": "1.0",
     "permissions": [
       "storage",
