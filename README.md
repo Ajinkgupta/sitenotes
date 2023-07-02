@@ -18,3 +18,7 @@ Follow these steps to use the SiteNotes extension:
 10. The notes will be associated with the specific website you are on, allowing you to easily retrieve them later.
 11. To view all your saved notes, click on the "View All Notes" button, which will open a new page with a list of all your notes organized by website.
 12. You can edit or delete notes as needed.
+
+## Demo
+
+[![Watch the video](https://i.ytimg.com/vi/0VwkvQeThxE/maxresdefault.jpg)](https://www.youtube.com/watch?v=0VwkvQeThxE)
