@@ -1,5 +1,5 @@
 # sitenotes
-"Sitenotes is a handy Chrome extension that allows you to take quick notes and save them for specific websites. With SiteScriber, you can easily jot down important information, reminders, or ideas while browsing the web, ensuring that you never forget or lose track of valuable insights.
+Sitenotes is a handy Chrome extension that allows you to take quick notes and save them for specific websites. With SiteScriber, you can easily jot down important information, reminders, or ideas while browsing the web, ensuring that you never forget or lose track of valuable insights.
 
 
 ## How to Use the SiteNotes Extension
@@ -21,4 +21,4 @@ Follow these steps to use the SiteNotes extension:
 
 ## Demo
 
-[![Watch the video](https://i.ytimg.com/vi/0VwkvQeThxE/maxresdefault.jpg)](https://www.youtube.com/watch?v=0VwkvQeThxE)
+[![Watch the video](https://img.youtube.com/vi/woHGN4LagCs/sddefault.jpg)](https://www.youtube.com/watch?v=woHGN4LagCs&feature=youtu.be)
